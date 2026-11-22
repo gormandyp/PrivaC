@@ -3,6 +3,8 @@
 **A Chrome extension that shows which companies a website hands your visit to, grades the site's privacy from A to F, and sends C, a little letter-C character, to say no to tracking cookies for you.**
 C also answers your questions about what it saw, using **Gemma 4 running inside Chrome on your own computer**: your browsing and questions never leave it.
 
+**[Add PrivaC to Chrome from the Chrome Web Store](https://chromewebstore.google.com/detail/privac/afnedbpkilihmoijggoedamabffeimki)** (free). To run the code yourself instead, see **Install** below.
+
 Built in 48 hours at Gator Hack V (UF AI Days 2026, Oct 23-25) for the "Fresh off the frontier" challenge, by a team of five mostly first-time hackers.
 
 > **This is the main download: the in-browser AI version.** Prefer the Ollama app? Download the [`ollama` branch](https://github.com/gormandyp/PrivaC/archive/refs/heads/ollama.zip) (frozen on Oct 24; main has every later fix).
@@ -39,6 +41,8 @@ The grade is computed by code, never by the AI, so it's the same every time and 
 A diagram of the parts, the data shape and the message API: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Install
+**Easiest:** install PrivaC from the [Chrome Web Store](https://chromewebstore.google.com/detail/privac/afnedbpkilihmoijggoedamabffeimki) with one click, then pin it from the puzzle-piece menu. The downloads below are for developers and anyone who wants to run the code themselves.
+
 | Version | C's AI runs on | Download |
 |---|---|---|
 | **PrivaC** (main, recommended) | Gemma 4 E2B inside Chrome (WebGPU): nothing else to install; Ollama works as a fallback | [main.zip](https://github.com/gormandyp/PrivaC/archive/refs/heads/main.zip) · setup: [docs/IN-BROWSER-AI.md](docs/IN-BROWSER-AI.md) |
